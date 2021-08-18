@@ -128,32 +128,70 @@ let divisão =  publicoEsperado/custo
  }
 
 // Exercício 8
-      function checaStringsMesmoTamanho() {
+     function checaStringsMesmoTamanho() {
   // escreva seu código aqui
+const string1 = prompt ("Digite uma palavra")
+const string2 = prompt ("Digite outra palavra")
 
-  
+
+
+console.log (string1.length >= string2.length)
 
 
 
-     }
+ 
+// Achei que ia morrer
+
+
+             }
+          
 
 
 // Exercício 9
-function checaIgualdadeDesconsiderandoCase() {
-  // escreva seu código aqui
-}
 
-// Exercício 10
-function checaRenovacaoRG() {
+   function checaIgualdadeDesconsiderandoCase() {
   // escreva seu código aqui
-}
 
-// Exercício 11
-function checaAnoBissexto() {
-  // escreva seu código aqui
-}
+  
+  const string1 = prompt ("Digite algo ");
+const string2 = prompt ("digite algo 2");
+ let resultado = string1.toLowerCase ()== string2.toLowerCase ();
 
-// Exercício 12
-function checaValidadeInscricaoLabenu() {
+console.log (resultado)
+
+
+
+
+
+   }
+
+ // Exercício 10
+  //  function checaRenovacaoRG() {
   // escreva seu código aqui
-}
+  // let anoDeNascimento = Number (prompt("Em que ano você nasceu?"))
+  let anoDeEmissao = Number (prompt("Qual ano de Emissão do seu RG?"))
+let anoAtual = Number (prompt("Qual o ano atual"))
+
+  let resultado = anoAtual - anoDeEmissao
+
+  if (resultado >= 10) {
+    console.log ("Você não precisa renovar o seu RG")
+  } else {
+    (resultado < 10)
+    console.log ("Você precisa renovar o seu RG!")
+  }
+  
+   
+ 
+  
+  // }
+
+// // Exercício 11
+// function checaAnoBissexto() {
+//   // escreva seu código aqui
+// }
+
+// // Exercício 12
+// function checaValidadeInscricaoLabenu() {
+//   // escreva seu código aqui
+// }
