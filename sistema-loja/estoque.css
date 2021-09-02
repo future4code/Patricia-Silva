@@ -1,24 +1,25 @@
-
-/* *{
-    padding: 0;
-    margin: 0;
-} */
 body{
     font-family: 'Raleway', sans-serif;  
 }
-h1{
+p{
     color: violet;
     height: 20px;
     
-    
+
 }
+
 h2{
-    color: rgb(97, 21, 87);
-    font-size: 50px;
-    margin-left: 25%;
-    
-    
+    color: pink;
+    text-align: center;
 }
+th{
+    color: violet;
+}
+
+td{
+    color:rgb(230, 92, 115);
+}
+
 
 li {
     color: rgb(230, 92, 115);
@@ -35,14 +36,7 @@ footer {
     line-height: 300%;
     color: rgb(10, 63, 0);
 }
- img{
+.redeSocial{
     height: 25px;
     bottom: auto;
-    
-} 
-.santaCeia {
-    height: 500px;
-    text-align: center; 
-    
 }
-
